@@ -1,0 +1,6 @@
+pandas 
+numpy 
+seaborn 
+-e .
+
+# '''  this -e . is that, it calls setup.py automatically but that is also passed as list, we need to get rid of it in list '''
