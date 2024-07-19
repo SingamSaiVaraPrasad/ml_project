@@ -22,6 +22,7 @@ app.add_middleware(
 
 try:
     MODEL = tf.keras.models.load_model(r"D:\vs code files new\2024\project\h5format\model_fixed.h5")
+    
     print("Model loaded successfully")
 except Exception as e:
     print(f"Error loading model: {e}")
