@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn
+tensorflow==2.16.1 # Adjusted from 2.5.0 to 2.16.0
+fastapi
+uvicorn
+python-multipart
+pillow
+tensorflow-serving-api==2.16.1  # Adjusted from 2.5.0 to 2.16.0
+matplotlib
+# -e .
+
+
+# '''  this -e . is that, it calls setup.py automatically but that is also passed as list, we need to get rid of it in list '''
+# comment this because it will setup all the time whenever we install this file, we shall do it at last
